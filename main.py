@@ -1,5 +1,5 @@
 
-def is_moved(piece_to_move, x, y, pieces):
+def is_movable(piece_to_move, x, y, pieces):
     """
         Determine if a piece can be moved according to the
         type of piece, the board dimension and the other pieces
